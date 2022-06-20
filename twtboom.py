@@ -68,7 +68,7 @@ def find_form(forms):
 		    break
 	if not found:return "block"
 	else: return fid
-### TWITTER BRUTE FROCE FUNCTION ###
+### TWITTER BRUTE FORCE FUNCTION ###
 def TBOM(username,wordlist=False,passwd=False,proxy=False):
 	if wordlist and not os.path.isfile(wordlist):
 		print(rd+"\n["+yl+"!"+rd+"] Error:"+yl+" No Such File: [ "+rd+str(wordlist)+yl+" ] "+rd+"!!!"+wi)
